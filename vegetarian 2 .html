@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cookbook</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f1ea;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            padding: 20px;
+           
+            background-size: cover;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            position: relative;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 3em;
+            color: #d2691e;
+        }
+
+        .category {
+            margin-top: 50px;
+        }
+
+        .category h2 {
+            border-bottom: 2px solid #d2691e;
+            padding-bottom: 10px;
+            color: #d2691e;
+            font-size: 2em;
+        }
+
+        .recipe {
+            margin-bottom: 30px;
+            position: relative;
+        }
+
+        .recipe h3 {
+            margin: 10px 0;
+            color: #333;
+            font-size: 1.5em;
+            cursor: pointer;
+        }
+
+        .recipe p {
+            margin: 5px 0;
+        }
+
+        .recipe img {
+            display: none;
+            position: right;
+            top: 100%;
+            left: 0;
+            width: 300px;
+            height: auto;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+            z-index: 10;
+        }
+
+        .recipe:hover img {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Cookbook</h1>
+
+        <div class="category">
+            <h2>Vegetarian Recipes</h2>
+            <div class="recipe">
+                <h3>Veggie Stir-fry</h3>
+                <p>Ingredients: Carrots, Broccoli, Bell Peppers, Soy Sauce, Olive Oil</p>
+                <p>Instructions: Stir-fry the vegetables in olive oil, add soy sauce, and cook until tender.</p>
+                <img src="F:\CLg Project\stir fry.jpg" alt="Veggie Stir-fry" >
+            </div>
+            <div class="recipe">
+                <h3>Grilled Cheese Sandwich</h3>
+                <p>Ingredients: Bread, Cheese, Butter</p>
+                <p>Instructions: Butter the bread, place cheese between slices, and grill until golden brown.</p>
+                <img src="F:\CLg Project\Grilled Cheese.jpg" alt="Grilled Cheese Sandwich">
+            </div>
+        </div>
+
+        <div class="category">
+            <h2>Non-Vegetarian Recipes</h2>
+            <div class="recipe">
+                <h3>Chicken Curry</h3>
+                <p>Ingredients: Chicken, Onion, Tomato, Spices</p>
+                <p>Instructions: Cook onions, add chicken and spices, simmer with tomatoes until cooked through.</p>
+                <img src="F:\CLg Project\Chicken curry.jpg" alt="Chicken Curry">
+            </div>
+            <div class="recipe">
+                <h3>Chicken Tacos</h3>
+                <p>Ingredients: Chicken , Taco Shells, Lettuce, Cheese, Salsa</p>
+                <p>Instructions: Cook the chicken, fill taco shells, and top with lettuce, cheese, and salsa.</p>
+                <img src="F:\CLg Project\taco.jpg" alt="Beef Tacos">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
